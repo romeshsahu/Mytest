@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_backgroud">
+
+    <TextView
+        android:id="@+id/txtSelectGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30.0dip"
+        android:gravity="center"
+        android:text="@string/select_gender"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSelectGender"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgUserMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_male" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Male"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/No_Yes"
+                android:id="@+id/txt_Male" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgUserFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_female" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Female"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/No_Yes"
+                android:id="@+id/txt_Female" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="36.0dip"
+        android:layout_marginRight="36.0dip"
+        android:background="@color/button_background_white"
+        android:text="@string/next"
+        android:textColor="@color/color_app_primary"
+        android:visibility="gone" />
+</RelativeLayout>

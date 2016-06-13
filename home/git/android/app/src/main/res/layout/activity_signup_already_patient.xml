@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_backgroud">
+
+    <TextView
+        android:id="@+id/txtSelectGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30.0dip"
+        android:gravity="center"
+        android:text="@string/select_already_patient"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSelectGender"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_wrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_no_deactive" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="NO"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/No_Yes"
+                android:id="@+id/txt_No" />
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp">
+        <ImageView
+            android:id="@+id/img_correct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/img_yes_deactive" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="YES"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/No_Yes"
+            android:id="@+id/txt_Yes" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="36.0dip"
+        android:layout_marginRight="36.0dip"
+        android:background="@color/button_background_white"
+        android:text="@string/next"
+        android:textColor="@color/color_app_primary"
+        android:visibility="gone" />
+</RelativeLayout>

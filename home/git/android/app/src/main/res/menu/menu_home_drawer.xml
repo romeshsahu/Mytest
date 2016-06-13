@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/drawer_care" android:title="@string/drawer_care">
+            <menu>
+                <item android:icon="@android:drawable/ic_menu_share" android:id="@+id/drawer_care_invite" android:title="@string/drawer_care_invite" />
+
+            </menu>
+        </item>
+        <item android:id="@+id/drawer_more" android:title="@string/drawer_more">
+            <menu>
+                <item android:icon="@android:drawable/ic_menu_preferences" android:id="@+id/drawer_more_settings" android:title="@string/drawer_more_settings" />
+                <item android:icon="@android:drawable/ic_menu_info_details" android:id="@+id/drawer_more_about" android:title="@string/drawer_more_about" />
+                <item android:id="@+id/drawer_version" android:title="@string/drawer_version"  />
+            </menu>
+        </item>
+    </group>
+</menu>

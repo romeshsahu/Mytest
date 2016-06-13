@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_app_primary</item>
+        <item name="colorPrimaryDark">@color/color_app_secondary</item>
+        <item name="colorAccent">@color/color_app_primary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- <item name="android:popupMenuStyle">@style/PopupMenu</item>-->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="TextLabel_Promo" parent="Theme.AppCompat">
+        //hint color And Label Color in False State
+        <item name="android:textColorHint">@color/bt_gray</item>
+        //Label color in True State And Bar Color False And True State
+        <item name="colorAccent">@color/color_app_primary</item>
+        <item name="android:textColorPrimary">@color/color_app_primary</item>
+        <item name="colorControlNormal">@color/color_app_primary</item>
+        <item name="colorControlActivated">@color/color_app_secondary</item>
+    </style>
+
+    <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">
+        //hint color And Label Color in False State
+        <item name="android:textColorHint">@color/white</item>
+        //Label color in True State And Bar Color False And True State
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/gradient_spinner</item>
+         <item name="android:popupBackground">#FFFFFF</item>
+    </style>
+
+</resources>

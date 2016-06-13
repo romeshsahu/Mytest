@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img_backgroud"
+    android:theme="@style/TextLabel">
+
+    <TextView
+        android:id="@+id/txtSelectDOB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36.0dip"
+        android:layout_marginRight="36.0dip"
+        android:layout_marginTop="30.0dip"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/select_dob"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <DatePicker
+        android:id="@+id/pickerDOB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSelectDOB"
+        android:layout_marginTop="30.0dip"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:spinnersShown="true"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="36.0dip"
+        android:layout_marginRight="36.0dip"
+        android:background="@color/button_background_white"
+        android:text="@string/next"
+
+        android:textColor="@color/color_app_primary" />
+</RelativeLayout>

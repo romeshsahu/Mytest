@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="BASE_URL">https://df-capitalradiology.enterprise.dreamfactory.com/api/v2</string>
+    <string name="DF_ANDROID_API_KEY">ef67fd2579b77ab919ed1b4354c1f13f9b7be9ae9fe11afc6eb258364674f07b</string>
+    <string name="MYSQL_TABLE">/mysql/_table</string>
+    <string name="MYSQL_PROCEDURE">/mysql/_proc</string>
+    <string name="TABLE_LOCATION">/v_location</string>
+    <string name="TABLE_PATIENT">/Patient</string>
+    <string name="TABLE_PATIENT_APPOINTMENT">/Patient_Appointment</string>
+    <string name="TABLE_PATIEN_DETAILS">/dicom</string>
+    <string name="TABLE_PROMO_CODE">/Promo</string>
+    <string name="TABLE_RADIOLOGIST">/Radiologist</string>
+    <string name="TABLE_PAIN_MGMT">/Pain_Mgmt</string>
+    <string name="TABLE_PAIN_CATEGORY">/Pain_Category</string>
+    <string name="TABLE_SERVICE">/Service</string>
+    <string name="TABLE_AVAILABLE_TIME_SLOT">/sp_available_appointments</string>
+    <string name="NEAREST_CLINIC">/sp_distance_from_clinic</string>
+    <string name="RECORDS">/sp_medical_records</string>
+    <string name="SERVICES">/Service</string>
+    <string name="USER_PROFILE">/user/profile</string>
+    <string name="USER_REGISTER">/user/register</string>
+    <string name="USER_PATIENT">/Patient</string>
+    <string name="USER_SESSION">/user/session</string>
+    <string name="CREATE_END_POINT">/sns/endpoint</string>
+    <string name="SNS_APP">/sns/app/</string>
+    <string name="APPLICATION_NAME">167922115335:app/GCM/Android</string>
+    <string name="MOBILE_OS_ID">2</string>
+</resources>
